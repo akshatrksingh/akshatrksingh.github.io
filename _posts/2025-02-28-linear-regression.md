@@ -14,11 +14,6 @@ The model is:
 \( y = mx + b \)
 where \( m \) is the slope and \( b \) is the intercept.
 
-## Visualizing It
-
-Here’s a diagram:
-![Regression Plot](/assets/images/regression_plot.png)
-
 ## The Cost Function
 
 We minimize the error with:
