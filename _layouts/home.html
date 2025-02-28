@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Akshat Singh</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    {% include navigation.html %}
+    <div style="margin-left: 220px; padding: 20px; max-width: 800px;">
+        <h1 style="color: #ff7f50; font-size: 3rem; font-weight: bold;">{{ page.title }}</h1>
+        {{ content }}
+    </div>
+</body>
+</html>
